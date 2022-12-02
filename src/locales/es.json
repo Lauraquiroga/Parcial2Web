@@ -1,3 +1,10 @@
 {
-    
+    "Banner": "Bandas musicales",
+    "Name": "Nombre",
+    "Country": "País",
+    "Genre": "Género",
+    "Foundation": "Fundación",
+    "OldestBandIs": "La banda más antigua es",
+    "OldestBandFoundation": "y fue fundada hace",
+    "OldestBandYear": "años."
 }

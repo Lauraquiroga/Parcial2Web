@@ -1,3 +1,10 @@
 {
-    
+    "Banner": "Musical bands",
+    "Name": "Name",
+    "Country": "Country",
+    "Genre": "Genre",
+    "Foundation": "Foundation",
+    "OldestBandIs": "The oldest band is",
+    "OldestBandFoundation": "and it was foundated",
+    "OldestBandYear": "years ago."
 }
