@@ -50,6 +50,21 @@ function Bandas() {
         return oldest;
     }
 
+    function showDetail (){
+        if (BandaContext.banda != {}){
+            return (<Col>
+                <Detail/>
+                </Col>)
+        }
+        else{
+            return (
+                <Col></Col>
+            )
+        }
+       
+        
+    }
+
     return (
         <div className="container">
             <NavBar></NavBar>
@@ -78,9 +93,7 @@ function Bandas() {
                     </tbody></table>
                     <span><FormattedMessage id="OldestBandIs" /> {oldestBand.name} <FormattedMessage id="OldestBandFoundation" /> {2022-oldestBand.foundation_year} <FormattedMessage id="OldestBandYear" /></span>
                     </Col>
-                    <Col>
-                    <Detail/>
-                    </Col>
+                    {showDetail ()}
                     </Row>
             </BandaContext.Provider>
         </div>
